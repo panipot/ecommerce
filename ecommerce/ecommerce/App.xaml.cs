@@ -15,7 +15,7 @@ namespace ecommerce
 		{
 			InitializeComponent();
 
-			MainPage = new MasterPage();
+			MainPage = new LoginPage();
 		}
 
         #region Metodos

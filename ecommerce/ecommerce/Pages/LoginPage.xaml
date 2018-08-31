@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ecommerce.Pages.LoginPage"
+             Title="login"
+             BackgroundColor="{StaticResource BackgroundColor}"
+             BindingContext="{Binding Main,Source={StaticResource Locator}}">
+    <StackLayout Padding="10" Spacing="20" BindingContext="{Binding NewLogin}">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="Ecom" TextColor="{StaticResource MainColor}" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center">
+            </Label>
+            <Image Source="ic_launcher.png" WidthRequest="80" HeightRequest="80" HorizontalOptions="Center" VerticalOptions="Center"></Image>
+        </StackLayout>
+        <BoxView HeightRequest="3" Color="{StaticResource MainColor}"></BoxView>
+        <Entry Placeholder="Usuario" TextColor="{StaticResource MainColor}" Text="{Binding User,Mode=TwoWay}"></Entry>
+        <Entry Placeholder="Contraseña" TextColor="{StaticResource MainColor}" IsPassword="True" Text="{Binding Password, Mode=TwoWay}"></Entry>
+        <Button Text="Ingresar" TextColor="{StaticResource AccentColor}" HorizontalOptions="Center" VerticalOptions="Center" Command="{Binding LoginCommand}"></Button>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="Recuerdame" TextColor="{StaticResource MainColor}" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            <Switch HorizontalOptions="End" VerticalOptions="Center" IsToggled="{Binding IsRemembered,Mode=TwoWay}"></Switch>
+        </StackLayout>
+        <Label Text="Recordar password" TextColor="{StaticResource AccentColor}" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+    </StackLayout>
+</ContentPage>
