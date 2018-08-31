@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Android", "ecommerce\ecommerce.Android\ecommerce.Android.csproj", "{78372263-B113-4094-AC8B-93917ACE2C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce", "ecommerce\ecommerce\ecommerce.csproj", "{BD8E7D60-BF0B-433A-A406-CFDF78AF29DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78372263-B113-4094-AC8B-93917ACE2C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78372263-B113-4094-AC8B-93917ACE2C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78372263-B113-4094-AC8B-93917ACE2C05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78372263-B113-4094-AC8B-93917ACE2C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78372263-B113-4094-AC8B-93917ACE2C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78372263-B113-4094-AC8B-93917ACE2C05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BD8E7D60-BF0B-433A-A406-CFDF78AF29DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8E7D60-BF0B-433A-A406-CFDF78AF29DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8E7D60-BF0B-433A-A406-CFDF78AF29DA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BD8E7D60-BF0B-433A-A406-CFDF78AF29DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8E7D60-BF0B-433A-A406-CFDF78AF29DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8E7D60-BF0B-433A-A406-CFDF78AF29DA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8A42859-0220-4398-840C-FC7AB3DCCEF6}
+	EndGlobalSection
+EndGlobal
